@@ -9,3 +9,6 @@ Goal: short, non-technical notes of the workflow.
 4) IRT modeling: run `R/irt_demo.R` (2PL), inspect ICC and test information.
 5) Refine items: drop or edit weak items; plan checks for cross-cultural invariance (DIF).
 
+## Figures
+![Item characteristic curve](Rplot_Item%20characteristic%20curve.png)
+![Test information curve](Rplot_Test%20information%20curve.png)
