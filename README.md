@@ -13,3 +13,4 @@ A small repository outlining how I plan to analyze developmental milestone items
 2. Open `R/irt_demo.R` and click **Run** to print item parameters.  
    Optional: uncomment the two `plot(...)` lines to see an item characteristic curve and the test information curve.
 
+- The example dataset is synthetic; variable naming and structure mirror typical parent-report milestone questionnaires.
