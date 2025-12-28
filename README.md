@@ -14,3 +14,4 @@ A small repository outlining how I plan to analyze developmental milestone items
    Optional: uncomment the two `plot(...)` lines to see an item characteristic curve and the test information curve.
 
 - The example dataset is synthetic; variable naming and structure mirror typical parent-report milestone questionnaires.
+- R session information is provided in `session_info.txt` for reproducibility.
