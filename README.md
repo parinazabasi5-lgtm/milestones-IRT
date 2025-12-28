@@ -1,13 +1,18 @@
-# milestones-IRT
-R scripts and minimal docs for item response modeling of developmental milestone items (Germany–Namibia project).
-# Milestones-IRT
+# Milestones IRT
 
-Minimal, beginner-friendly repository to demonstrate how I plan to analyze **developmental milestone** items using **Item Response Theory (IRT)** in **R** for the Leuphana/MPI project (Germany–Namibia).
+A small repository outlining how I plan to analyze developmental milestone items with Item Response Theory (IRT) in R for the Leuphana/MPI project.
 
-**What’s here (to be added next steps):**
-- `R/irt_demo.R`: simulate items and fit 2PL model with `mirt`
-- `R/cleaning_pipeline.R`: simple questionnaire cleaning (recoding, missing data)
-- `R/efa_cfa.R`: quick EFA/CFA example for scale structure
-- `docs/README`: short workflow notes, figures (ICC, test information)
+## What's inside
+- `R/irt_demo.R` — minimal 2PL example with simulated data (item parameters + optional plots)
+- `R/cleaning_pipeline.R` — to be added: simple template for cleaning parent-item data
+- `R/efa_cfa.R` — to be added: quick EFA/CFA sketch for scale structure
+- `docs/` — to be added: short workflow notes and figures
 
-I will keep the code very simple, well-commented, and reproducible so committee members can quickly see my workflow even if they don’t run the code.
+## How to run 
+1. In RStudio, install the package **mirt** (Packages → Install).
+2. Open `R/irt_demo.R` and click **Run** to print item parameters.  
+   Optional: uncomment the two `plot(...)` lines to see an item characteristic curve and the test information curve.
+
+## Why this repo
+Transparent, reproducible workflow for developing/validating milestone items (emic/etic) and fitting IRT models, starting simple and expanding with real data.
+
